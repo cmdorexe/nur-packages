@@ -59,7 +59,7 @@ stdenv.mkDerivation rec {
     owner = "elfmz";
     repo = "far2l";
     rev = "14c12dcfe29b42ac6870716bcb58012656b468a1";
-    sha256 = "sha256-+FqOhbD9VtKiA7nH35mRNjhjkKc6GeLeJI18sqhDIs4=";
+    sha256 = "sha256-f5L3FgRhAJMU3RQv+Csx7TSPbcwojXJ3ee+zALBepuc=";
   };
 #    # arrows
 #  patches = fetchpatch {
