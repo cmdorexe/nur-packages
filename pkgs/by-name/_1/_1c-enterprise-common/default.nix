@@ -59,5 +59,6 @@ stdenv.mkDerivation (finalAttrs: {
       free = false;
     };
     platforms = [ "x86_64-linux" ];
+    broken = true;
   };
 })

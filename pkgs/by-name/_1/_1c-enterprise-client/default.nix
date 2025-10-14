@@ -2,8 +2,8 @@
 , dpkg
 , autoPatchelfHook
 , makeWrapper
-, _1c-enterprise-common
-, _1c-enterprise-server
+, _1c-enterprise-common ? callPackage ../_1c-enterprise-common {}
+, _1c-enterprise-server ? callPackage ../_1c-enterprise-server {}
 , glib
 , glibc
 , gtk3
@@ -164,5 +164,6 @@ stdenv.mkDerivation (finalAttrs: {
       free = false;
     };
     platforms = [ "x86_64-linux" ];
+    broken = true;
   };
 })

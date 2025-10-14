@@ -2,7 +2,7 @@
 , dpkg
 , autoPatchelfHook
 , makeWrapper
-, _1c-enterprise-common
+, _1c-enterprise-common ? callPackage ../_1c-enterprise-common {}
 , requireFile
 , glib
 , glibc
@@ -87,5 +87,6 @@ stdenv.mkDerivation (finalAttrs: {
       free = false;
     };
     platforms = [ "x86_64-linux" ];
+    broken = true;
   };
 })
