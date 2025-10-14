@@ -207,6 +207,5 @@ in stdenv.mkDerivation rec {
     homepage = "https://www.waterfox.net/";
     license = licenses.mpl20;
     platforms = [ "x86_64-linux" ];
-    maintainers = with maintainers; [ joyfulcat ];
   };
 }
