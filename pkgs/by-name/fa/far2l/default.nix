@@ -44,7 +44,7 @@
   withHexitor ? true,
   withOpenWith ? true,
   python3Packages,
-  _7zlib ? callPackage ../_7/_7zlib { },
+  _7zlib ? callPackage ../../_7/_7zlib { },
   ...
 }:
 
